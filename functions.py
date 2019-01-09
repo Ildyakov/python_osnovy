@@ -54,3 +54,19 @@ def func(f, a, b):
 v = func(summa, 10, 3)
 print(v)
 
+
+# In[15]:
+
+
+def sum_of_squares(num):
+    x = 0
+    for i in range(1, num + 1):
+        x += i ** 2
+    return x
+
+
+# In[16]:
+
+
+print(sum_of_squares(6))
+
